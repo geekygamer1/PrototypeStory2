@@ -1,21 +1,21 @@
 {
     "story" : {
-        "id" : "story02",
-        "name" : "High Seas",
+        "id" : "story03",
+        "name" : "High Seas II",
         "pic_path" : "resources/auf-hoher-see.jpg",
         "rating" :  "G",
         "summary" : "adventure on the high seas",
         "chapters" : [
             {
                 "id" : "chapter01",
-                "name" : "A Voyage",
+                "name" : "More Voyaging",
                 "is_first_chapter" : true,
-                "text" : "You've been at sea for months searching for a mythical creature. As you sit up in the crows nest there's nothing but a blue smooth water as far as you can see. Suddenly, you see something appear just on the horizon off the port bow. It might be smoke.",
+                "text" : "You're still at sea searching for a mythical creature. It's been at least a year. As you sit up in the crows nest there's nothing but a blue smooth water as far as you can see. This has the makings of the world's most boring sequel only rivaling part one of this story. Suddenly, you see something appear just on the horizon off the starboard bow. It might be smoke again.",
                 "pic_path" : "resources/auf-hoher-see.jpg",
                 "choices" : [
                     {
                         "chapter_id" : "chapter02",
-                        "text" : "Inform the captain. There's been nothing interesting for a while."
+                        "text" : "Inform the captain. It's been at least a year since you saw smoke last time."
                     },
                     {
                         "chapter_id" : "chapter03",
@@ -26,7 +26,7 @@
             {
                 "id" : "chapter02",
                 "name" : "Ignore The Smoke",
-                "text" : "You tell the captain and just as you thought, he screams, \"Them's the locals, lad! Keep looking for the beast\"\n\nYou go back to looking. Maybe you'll see something interesting again tomorrow."
+                "text" : "You tell the captain and just as you thought, he screams, \"Them's the same locals, lad! We're going in circles!"
             },
             {
                 "id" : "chapter03",
